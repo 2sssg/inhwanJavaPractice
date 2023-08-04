@@ -1,4 +1,4 @@
-package temp;
+package guys;
 
 public class CrazyManImpl implements CrazyMan {
 	
