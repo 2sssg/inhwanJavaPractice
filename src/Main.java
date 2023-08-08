@@ -1,24 +1,26 @@
+import guys.CrazyMan;
+import guys.CrazyManImpl;
+
 public class Main {
 
 	public static void main(String... argv){
-//		Student inHuanLee = new Student();
-//		inHuanLee.setName("이 인환");
-//		inHuanLee.setGrade(3);
-//		inHuanLee.setClassNum(3);
-//		inHuanLee.setStudentNum(19);
-//		System.out.println(inHuanLee);
-//
-//		Student ericParker = new Student(3, 3, 500, "Eric Parker");
-//		ericParker.getName();
+		CrazyMan Hong = new CrazyMan("홍길동");
+		System.out.println(Hong.getName());
+		System.out.println(Hong.getComment());
+		System.out.println(Hong.getCause());
+		System.out.println(Hong.getDisease());
+		System.out.println(Hong.getHospital());
+		System.out.println("작성자도 정상이 아니혀조ㅕㅑ허ㅗㅕㅑㅈ겨려ㅐ2ㅈ갷ㅈ갸ㅐ허ㅐ\n\n\n");
 
-//		char a = 65;
-//		for(char x = 65; x != 'Z' + 1; x++) {
-//			System.out.print(x + " ");
-//		}
-//
-//		int intVal = 10;
-//		long longVal = intVal;
-		String stringVal = "0x10";
-//		int intVal =
+		CrazyMan AGH = new CrazyMan("ADH", "안녕하세요", "태생적",
+				"SNU", "아스퍼거");
+
+		System.out.println(AGH.getName());
+		System.out.println(AGH.getComment());
+		System.out.println(AGH.getCause());
+		System.out.println(AGH.getDisease());
+		System.out.println(AGH.getHospital("낵슨 푸르메재단 푸르메"));
+		System.out.println(AGH.getHospital());
+
 	}
 }
