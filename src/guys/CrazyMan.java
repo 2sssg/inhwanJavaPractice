@@ -1,5 +1,8 @@
 package guys;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CrazyMan implements Man {
 
 	private final String[] sayingArr = {"dummy", "하하하하하하히앟ㄷ쟈ㅐ해ㅑ재ㅑㅏ햐ㅐ", ""};
@@ -64,7 +67,5 @@ public class CrazyMan implements Man {
 	public String getDisease() {
 		return disease;
 	}
-
-
 
 }
