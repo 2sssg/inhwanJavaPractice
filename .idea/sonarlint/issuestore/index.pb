@@ -10,5 +10,3 @@ K
 src/guys/CrazyMan_Back.java,d/3/d345d51ee37325a7b93faadf05d587c9f8e49e34
 J
 src/guys/CrazyManImpl.java,d/1/d17cc5809d3529bdcffbb27bc1750231a4307403
-@
-src/Student.java,a/9/a955bfc1fa56842ee29c812417553255d1f41b0e
