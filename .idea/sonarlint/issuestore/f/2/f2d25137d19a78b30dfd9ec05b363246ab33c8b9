@@ -1,0 +1,10 @@
+
+u	java:S116"[Rename this field "DEFAULT_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û„ƒ¬þÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(û„ƒ¬þÿÿÿÿ
+o
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(„¬ŒÆ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8þÞ¼ Ÿ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8þÞ¼ Ÿ1
